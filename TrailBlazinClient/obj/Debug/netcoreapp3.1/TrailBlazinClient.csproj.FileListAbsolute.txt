@@ -8,7 +8,6 @@ C:\Users\joshd\Documents\GitHub\TrailBlazin\TrailBlazinClient\bin\Debug\netcorea
 C:\Users\joshd\Documents\GitHub\TrailBlazin\TrailBlazinClient\bin\Debug\netcoreapp3.1\TrailBlazinClient.pdb
 C:\Users\joshd\Documents\GitHub\TrailBlazin\TrailBlazinClient\bin\Debug\netcoreapp3.1\TrailBlazinClient.Views.dll
 C:\Users\joshd\Documents\GitHub\TrailBlazin\TrailBlazinClient\bin\Debug\netcoreapp3.1\TrailBlazinClient.Views.pdb
-C:\Users\joshd\Documents\GitHub\TrailBlazin\TrailBlazinClient\obj\Debug\netcoreapp3.1\TrailBlazinClient.csprojAssemblyReference.cache
 C:\Users\joshd\Documents\GitHub\TrailBlazin\TrailBlazinClient\obj\Debug\netcoreapp3.1\TrailBlazinClient.AssemblyInfoInputs.cache
 C:\Users\joshd\Documents\GitHub\TrailBlazin\TrailBlazinClient\obj\Debug\netcoreapp3.1\TrailBlazinClient.AssemblyInfo.cs
 C:\Users\joshd\Documents\GitHub\TrailBlazin\TrailBlazinClient\obj\Debug\netcoreapp3.1\TrailBlazinClient.csproj.CoreCompileInputs.cache

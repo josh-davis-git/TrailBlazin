@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\joshd\\Documents\\GitHub\\TrailBlazin\\TrailBlazinAPI\\TrailBlazinAPI.csproj": {}
+    "C:\\Users\\joshd\\Documents\\GitHub\\TrailBlazin\\TrailBlazinAPI\\TrailBlazinAPI.csproj": {}
   },
   "projects": {
-    "c:\\Users\\joshd\\Documents\\GitHub\\TrailBlazin\\TrailBlazinAPI\\TrailBlazinAPI.csproj": {
+    "C:\\Users\\joshd\\Documents\\GitHub\\TrailBlazin\\TrailBlazinAPI\\TrailBlazinAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\joshd\\Documents\\GitHub\\TrailBlazin\\TrailBlazinAPI\\TrailBlazinAPI.csproj",
+        "projectUniqueName": "C:\\Users\\joshd\\Documents\\GitHub\\TrailBlazin\\TrailBlazinAPI\\TrailBlazinAPI.csproj",
         "projectName": "TrailBlazinAPI",
-        "projectPath": "c:\\Users\\joshd\\Documents\\GitHub\\TrailBlazin\\TrailBlazinAPI\\TrailBlazinAPI.csproj",
+        "projectPath": "C:\\Users\\joshd\\Documents\\GitHub\\TrailBlazin\\TrailBlazinAPI\\TrailBlazinAPI.csproj",
         "packagesPath": "C:\\Users\\joshd\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\joshd\\Documents\\GitHub\\TrailBlazin\\TrailBlazinAPI\\obj\\",
+        "outputPath": "C:\\Users\\joshd\\Documents\\GitHub\\TrailBlazin\\TrailBlazinAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

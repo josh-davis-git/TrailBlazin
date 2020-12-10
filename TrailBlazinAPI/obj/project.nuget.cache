@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UHjYY4zbL1IzgzVmh2W29OzVGbl/wc78C+eJD6VhVQjT40SpWmE660/0tx3OfTZiTZZikwUtpsf149sRqVVjhg==",
+  "dgSpecHash": "pjmncfbHju8HUAFwuMxplSYy81L4BMUu853dAmT6kHmTVQsMyisk7RSkEt1MoLGi4e1rUGbrZw4kpIIhrKJ7KQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\joshd\\Documents\\GitHub\\TrailBlazin\\TrailBlazinAPI\\TrailBlazinAPI.csproj",
+  "projectFilePath": "C:\\Users\\joshd\\Documents\\GitHub\\TrailBlazin\\TrailBlazinAPI\\TrailBlazinAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joshd\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\joshd\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",

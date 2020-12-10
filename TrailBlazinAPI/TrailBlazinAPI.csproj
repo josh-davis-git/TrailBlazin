@@ -3,11 +3,6 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Folder Include="Models\Dtos\" />
-    <Folder Include="Repository\IRepository\" />
-  </ItemGroup>
 	
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="9.0.0" />
