@@ -7,6 +7,6 @@ namespace TrailBlazinAPI.Data
 {
     public class ApplicationDbContext 
     {
-        
+        // Server=(localdb)\\mssqllocaldb;Database=TrailBllazin;Trusted_Connection=True;MultipleActiveResultSets=true
     }
 }
