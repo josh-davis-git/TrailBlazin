@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrailBlazinAPI", "TrailBlazinAPI\TrailBlazinAPI.csproj", "{BF71BE67-4B29-4B14-BB69-235BC6C5CC56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrailBlazinClient", "TrailBlazinClient\TrailBlazinClient.csproj", "{E9980C40-6B34-4C6D-A147-DA714405BC31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF71BE67-4B29-4B14-BB69-235BC6C5CC56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF71BE67-4B29-4B14-BB69-235BC6C5CC56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF71BE67-4B29-4B14-BB69-235BC6C5CC56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF71BE67-4B29-4B14-BB69-235BC6C5CC56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9980C40-6B34-4C6D-A147-DA714405BC31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9980C40-6B34-4C6D-A147-DA714405BC31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9980C40-6B34-4C6D-A147-DA714405BC31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9980C40-6B34-4C6D-A147-DA714405BC31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B6DF29A-93F4-41AF-A1DB-97151953D847}
+	EndGlobalSection
+EndGlobal
