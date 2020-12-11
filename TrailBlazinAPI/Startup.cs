@@ -10,7 +10,9 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 using TrailBlazinAPI.Data;
 using TrailBlazinAPI.Repository;
@@ -36,6 +38,34 @@ namespace TrailBlazinAPI
             services.AddScoped<ITrailRepository, TrailRepository>();
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddAutoMapper(typeof(TrailMapping));
+            services.AddSwaggerGen(options =>
+            {
+                options.SwaggerDoc("TrailBlazinOpenAPISpec",
+                    new Microsoft.OpenApi.Models.OpenApiInfo()
+                    {
+                        Title = "Trail Blazin' API",
+                        Version = "1",
+                        Description = "Trail Blazin Project",
+                        Contact = new Microsoft.OpenApi.Models.OpenApiContact()
+                        {
+                            Email = "josh.davis.work@outlook.com",
+                            Name = "Josh Davis",
+                            Url = new Uri("https://www.localhost:5001")
+                        },
+
+                        License = new Microsoft.OpenApi.Models.OpenApiLicense()
+                        {
+                            Name = "MIT License",
+                            Url = new Uri("https://en.wikipedia.org/wiki/MIT_License")
+                        }
+
+                    }); 
+
+                var xmlCommentFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                var cmlCommentsFullPath = Path.Combine(AppContext.BaseDirectory, xmlCommentFile);
+                options.IncludeXmlComments(cmlCommentsFullPath);
+            });
+
             services.AddControllers();
         }
 
@@ -48,6 +78,13 @@ namespace TrailBlazinAPI
             }
 
             app.UseHttpsRedirection();
+
+            app.UseSwagger();
+            app.UseSwaggerUI(options => 
+            {
+                options.SwaggerEndpoint("/swagger/TrailBlazinOpenAPISpec/swagger.json", "Trail Blazin' API");
+                options.RoutePrefix = "";
+            });
 
             app.UseRouting();
 

@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrailBlazinAPI", "TrailBlazinAPI\TrailBlazinAPI.csproj", "{BF71BE67-4B29-4B14-BB69-235BC6C5CC56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrailBlazinAPI", "TrailBlazinAPI\TrailBlazinAPI.csproj", "{BF71BE67-4B29-4B14-BB69-235BC6C5CC56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrailBlazinClient", "TrailBlazinClient\TrailBlazinClient.csproj", "{E9980C40-6B34-4C6D-A147-DA714405BC31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrailBlazinClient", "TrailBlazinClient\TrailBlazinClient.csproj", "{E9980C40-6B34-4C6D-A147-DA714405BC31}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

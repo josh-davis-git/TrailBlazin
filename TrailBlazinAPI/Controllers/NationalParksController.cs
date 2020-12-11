@@ -12,8 +12,11 @@ using TrailBlazinAPI.Repository.IRepository;
 
 namespace TrailBlazinAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/v{version:apiVersion}/nationalparks")]
+    //[Route("api/[controller]")]
     [ApiController]
+    //[ApiExplorerSettings(GroupName = "ParkyOpenAPISpecNP")]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
     public class NationalParksController : ControllerBase
     {
         private readonly INationalParkRepository _npRepo;
@@ -49,10 +52,10 @@ namespace TrailBlazinAPI.Controllers
         /// <param name="nationalParkId"> The Id of the national Park </param>
         /// <returns></returns>
         [HttpGet("{nationalParkId:int}", Name = "GetNationalPark")]
-        //[ProducesResponseType(200, Type = typeof(NationalParkDto))]
-        //[ProducesResponseType(404)]
-        //[Authorize]
-        //[ProducesDefaultResponseType]
+        [ProducesResponseType(200, Type = typeof(NationalParkDto))]
+        [ProducesResponseType(404)]
+        [Authorize]
+        [ProducesDefaultResponseType]
         public IActionResult GetNationalPark(int nationalParkId)
         {
             var obj = _npRepo.GetNationalPark(nationalParkId);
@@ -73,10 +76,10 @@ namespace TrailBlazinAPI.Controllers
         }
 
         [HttpPost]
-        //[ProducesResponseType(201, Type = typeof(NationalParkDto))]
-        //[ProducesResponseType(StatusCodes.Status201Created)]
-        //[ProducesResponseType(StatusCodes.Status404NotFound)]
-        //[ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        [ProducesResponseType(201, Type = typeof(NationalParkDto))]
+        [ProducesResponseType(StatusCodes.Status201Created)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public IActionResult CreateNationalPark([FromBody] NationalParkDto nationalParkDto)
         {
             if (nationalParkDto == null)

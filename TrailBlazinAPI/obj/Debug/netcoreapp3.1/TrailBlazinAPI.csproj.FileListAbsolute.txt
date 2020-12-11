@@ -133,3 +133,4 @@ C:\Users\joshd\Documents\GitHub\TrailBlazin\TrailBlazinAPI\obj\Debug\netcoreapp3
 C:\Users\joshd\Documents\GitHub\TrailBlazin\TrailBlazinAPI\obj\Debug\netcoreapp3.1\TrailBlazinAPI.dll
 C:\Users\joshd\Documents\GitHub\TrailBlazin\TrailBlazinAPI\obj\Debug\netcoreapp3.1\TrailBlazinAPI.pdb
 C:\Users\joshd\Documents\GitHub\TrailBlazin\TrailBlazinAPI\obj\Debug\netcoreapp3.1\TrailBlazinAPI.genruntimeconfig.cache
+C:\Users\joshd\Documents\GitHub\TrailBlazin\TrailBlazinAPI\bin\Debug\netcoreapp3.1\TrailBlazinAPI.xml

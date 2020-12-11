@@ -1,7 +1,9 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using TrailBlazinAPI.Data;
 using TrailBlazinAPI.Models;
 using TrailBlazinAPI.Repository.IRepository;
 
@@ -9,49 +11,58 @@ namespace TrailBlazinAPI.Repository
 {
     public class TrailRepository : ITrailRepository
     {
+        private readonly ApplicationDbContext _db;
+
+        public TrailRepository(ApplicationDbContext db)
+        {
+            _db = db;
+
+        }
         public bool CreateTrail(Trail trail)
         {
-            throw new NotImplementedException();
+            _db.Trails.Add(trail);
+            return Save();
         }
 
         public bool DeleteTrail(Trail trail)
         {
-            throw new NotImplementedException();
+            _db.Trails.Remove(trail);
+            return Save();
         }
 
         public Trail GetTrail(int trailId)
         {
-            throw new NotImplementedException();
+            return _db.Trails.Include(t => t.NationalPark).FirstOrDefault(a => a.Id == trailId);
         }
 
         public ICollection<Trail> GetTrails()
         {
-            throw new NotImplementedException();
-        }
-
-        public ICollection<Trail> GetTrailsInNationalPark(int npId)
-        {
-            throw new NotImplementedException();
-        }
-
-        public bool Save()
-        {
-            throw new NotImplementedException();
+            return _db.Trails.Include(c => c.NationalPark).OrderBy(a => a.Name).ToList();
         }
 
         public bool TrailExists(string name)
         {
-            throw new NotImplementedException();
+            bool value = _db.Trails.Any(a => a.Name.ToLower().Trim() == name.ToLower().Trim());
+            return value;
         }
 
         public bool TrailExists(int id)
         {
-            throw new NotImplementedException();
+            return _db.Trails.Any(a => a.Id == id);
+        }
+        public bool Save()
+        {
+            return _db.SaveChanges() >= 0 ? true : false;
         }
 
         public bool UpdateTrail(Trail trail)
         {
-            throw new NotImplementedException();
+            _db.Trails.Update(trail);
+            return Save();
+        }
+        public ICollection<Trail> GetTrailsInNationalPark(int npId)
+        {
+            return _db.Trails.Include(c => c.NationalPark).Where(c => c.NationalParkId == npId).ToList();
         }
     }
 }
