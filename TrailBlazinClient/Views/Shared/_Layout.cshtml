@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor httpAcc
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -14,7 +17,7 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-success mb-3">
             <div class="container">
-                <a class="navbar-brand text-white-50" asp-area="" asp-controller="Home" asp-action="Index">ParkyWeb</a>
+                <a class="navbar-brand text-white-50" asp-area="" asp-controller="Home" asp-action="Index">TrailBlazinClient</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -33,7 +36,8 @@
                                 <a class="nav-link text-white" asp-controller="Trails" asp-action="Index">Trail</a>
                             </li>
                         }
-                        @if (httpAcc.HttpContext.Session.GetString("JWToken") != null && httpAcc.HttpContext.Session.GetString("JWToken").ToString().Length > 0)
+                        @if (httpAcc.HttpContext.Session.GetString("JWToken") != null &&
+               httpAcc.HttpContext.Session.GetString("JWToken").ToString().Length > 0)
                         {
                             <li class="nav-item">
                                 <a class="nav-link text-white" asp-controller="Home" asp-action="Logout">Logout</a>

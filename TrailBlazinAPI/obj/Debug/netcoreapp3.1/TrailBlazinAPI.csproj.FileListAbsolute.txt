@@ -6,6 +6,7 @@ C:\Users\joshd\Documents\GitHub\TrailBlazin\TrailBlazinAPI\bin\Debug\netcoreapp3
 C:\Users\joshd\Documents\GitHub\TrailBlazin\TrailBlazinAPI\bin\Debug\netcoreapp3.1\TrailBlazinAPI.runtimeconfig.dev.json
 C:\Users\joshd\Documents\GitHub\TrailBlazin\TrailBlazinAPI\bin\Debug\netcoreapp3.1\TrailBlazinAPI.dll
 C:\Users\joshd\Documents\GitHub\TrailBlazin\TrailBlazinAPI\bin\Debug\netcoreapp3.1\TrailBlazinAPI.pdb
+C:\Users\joshd\Documents\GitHub\TrailBlazin\TrailBlazinAPI\bin\Debug\netcoreapp3.1\TrailBlazinAPI.xml
 C:\Users\joshd\Documents\GitHub\TrailBlazin\TrailBlazinAPI\bin\Debug\netcoreapp3.1\AutoMapper.dll
 C:\Users\joshd\Documents\GitHub\TrailBlazin\TrailBlazinAPI\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\joshd\Documents\GitHub\TrailBlazin\TrailBlazinAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
@@ -119,7 +120,6 @@ C:\Users\joshd\Documents\GitHub\TrailBlazin\TrailBlazinAPI\bin\Debug\netcoreapp3
 C:\Users\joshd\Documents\GitHub\TrailBlazin\TrailBlazinAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\joshd\Documents\GitHub\TrailBlazin\TrailBlazinAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\joshd\Documents\GitHub\TrailBlazin\TrailBlazinAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\joshd\Documents\GitHub\TrailBlazin\TrailBlazinAPI\obj\Debug\netcoreapp3.1\TrailBlazinAPI.csprojAssemblyReference.cache
 C:\Users\joshd\Documents\GitHub\TrailBlazin\TrailBlazinAPI\obj\Debug\netcoreapp3.1\TrailBlazinAPI.AssemblyInfoInputs.cache
 C:\Users\joshd\Documents\GitHub\TrailBlazin\TrailBlazinAPI\obj\Debug\netcoreapp3.1\TrailBlazinAPI.AssemblyInfo.cs
 C:\Users\joshd\Documents\GitHub\TrailBlazin\TrailBlazinAPI\obj\Debug\netcoreapp3.1\TrailBlazinAPI.csproj.CoreCompileInputs.cache
@@ -133,4 +133,3 @@ C:\Users\joshd\Documents\GitHub\TrailBlazin\TrailBlazinAPI\obj\Debug\netcoreapp3
 C:\Users\joshd\Documents\GitHub\TrailBlazin\TrailBlazinAPI\obj\Debug\netcoreapp3.1\TrailBlazinAPI.dll
 C:\Users\joshd\Documents\GitHub\TrailBlazin\TrailBlazinAPI\obj\Debug\netcoreapp3.1\TrailBlazinAPI.pdb
 C:\Users\joshd\Documents\GitHub\TrailBlazin\TrailBlazinAPI\obj\Debug\netcoreapp3.1\TrailBlazinAPI.genruntimeconfig.cache
-C:\Users\joshd\Documents\GitHub\TrailBlazin\TrailBlazinAPI\bin\Debug\netcoreapp3.1\TrailBlazinAPI.xml
