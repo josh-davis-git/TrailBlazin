@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "700TCWW4HQWfb1BhTsxljsOvwwQGDaqJrQ9jt6GtN0AujNVjSgBZbaAF45mRtqBG23GnUA8LPFX0cGt493V4wA==",
+  "dgSpecHash": "tIs9Vr3nsnPUrST0G9+Wmv7o84n5h502FOw6EK4TiQ5sEtnWOiSrxMwM/ZUa6Y7NDYppltkg2BNwRFATj/yguw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\joshd\\Documents\\GitHub\\TrailBlazin\\TrailBlazinClient\\TrailBlazinClient.csproj",
+  "projectFilePath": "c:\\Users\\joshd\\Documents\\GitHub\\TrailBlazin\\TrailBlazinClient\\TrailBlazinClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joshd\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\joshd\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\3.1.0\\microsoft.aspnetcore.mvc.razor.extensions.3.1.0.nupkg.sha512",

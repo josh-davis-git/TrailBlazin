@@ -14,7 +14,6 @@ namespace TrailBlazinAPI.Controllers
     [Route("api/v{version:apiVersion}/nationalparks")]
     [ApiVersion("2.0")]
     [ApiController]
-    //[ApiExplorerSettings(GroupName = "ParkyOpenAPISpecNP")]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     public class NationalParksV2Controller : ControllerBase
     {
